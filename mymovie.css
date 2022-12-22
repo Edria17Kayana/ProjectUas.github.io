@@ -1,0 +1,150 @@
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: flex;
+}
+
+.judul {
+	text-shadow: 3px 3px 6px black;
+	color: rgb(255, 28, 97);
+	font-family: Brush Script MT;
+	font-size: 50px;
+	padding-left: 40px;
+	top: 0;
+	right: 10px;
+	justify-content: flex-start;
+}
+
+
+.ul-navbar {
+	width: 1080px;
+	height: 80px;
+	display: flex;	
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	position: relative;
+	justify-content: flex-end;
+	align-items: center;
+	margin-left: 20px;
+	top: 6px;
+}
+
+.ul-navbar > li {
+	padding: 15px;
+	list-style-type: none;
+	font-size: 30px;
+	transition: 0.2s;
+}
+
+.ul-navbar > li:hover{
+	transform: scale(1.08);
+	background-color: rgb(255, 28, 97);
+	color: white;
+	border-radius: 4px;
+}
+
+.ul-navbar > li > a {
+	color: black;
+}
+
+/* List 2001-2009 */
+.End-of-home {
+	display: grid;
+}
+
+.End-of-home h2 {
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	padding: 10px;
+	background-color: rgb(255, 184, 165);
+}
+
+.sub-end-of-home {
+	display: flex;
+	justify-content: center;
+}
+
+.sub-end-of-home > a > img {
+	width: 100%;
+}
+
+.sub-end-of-home > a {
+	transition: 0.2s;
+}
+
+.sub-end-of-home > a:hover {
+	transform: scale(1.08);
+}
+
+.sub-end-of-home img {
+	width: 33%;
+}
+
+.sub-end-of-home-two {
+	display: flex;
+	justify-content: center;
+}
+
+.sub-end-of-home-two > a > img {
+	width: 100%
+}
+
+.sub-end-of-home-two > a{
+	transition: 0.2s;
+}
+
+.sub-end-of-home-two > a:hover {
+	transform: scale(1.08);
+}
+
+/* List Present */
+.Present {
+	display: grid;
+}
+
+.Present h2 {
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	padding: 10px;
+	background-color: rgb(255, 184, 165);
+}
+
+.sub-present {
+	display: flex;
+	justify-content: center;
+}
+
+.sub-present > a > img {
+	width: 100%;
+}
+
+.sub-present > a{
+	transition: 0.2s;
+}
+
+.sub-present > a:hover {
+	transform: scale(1.08);
+}
+
+.sub-present-two {
+	display: flex;
+	justify-content: center;
+}
+
+.sub-present-two > a > img {
+	width: 100%
+}
+
+.sub-present-two > a{
+	transition: 0.2s;
+}
+
+.sub-present-two > a:hover {
+	transform: scale(1.08);
+}

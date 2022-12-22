@@ -1,0 +1,178 @@
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: flex;
+}
+
+.judul {
+	text-shadow: 3px 3px 6px black;
+	color: rgb(255, 28, 97);
+	font-family: Brush Script MT;
+	font-size: 50px;
+	padding-left: 40px;
+	top: 0;
+	right: 10px;
+	justify-content: flex-start;
+}
+
+
+.ul-navbar {
+	width: 1080px;
+	height: 80px;
+	display: flex;	
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	position: relative;
+	justify-content: flex-end;
+	align-items: center;
+	margin-left: 20px;
+	top: 6px;
+}
+
+.ul-navbar > li {
+	padding: 15px;
+	list-style-type: none;
+	font-size: 30px;
+	transition: 0.2s;
+}
+
+.ul-navbar > li:hover{
+	transform: scale(1.08);
+	background-color: rgb(255, 28, 97);
+	color: white;
+	border-radius: 4px;
+}
+
+.ul-navbar > li > a {
+	color: black;
+}
+
+body {
+	font-family: rubik spray paint;	
+}
+
+/* Konten About me : nama */
+.Nama {
+	display: flex;
+	position: relative;
+	padding-top: 20px;
+}
+
+.foto-barbie {
+	padding-left: 30px;
+}
+
+#perkenalan {
+	font-size: 50px;
+	font-style: italic;
+	color: rgb(64, 0, 0);
+	text-align: center;
+	padding: 100px 50px 0px 50px;
+
+}
+
+#perkenalan > a {
+	color: rgb(64, 0, 0);
+	transition: 0.2s;
+}
+
+#perkenalan > a:hover {
+	background-color: rgb(255, 89, 104);
+	padding: 5px;
+	color: white;
+	border-radius: 4px;
+}
+
+/* minat-bakat */
+
+.minat-bakat {
+	display: flex;
+	padding-top: 20px;
+	background-color: rgb(255, 89, 104);
+}
+
+.bakat {
+	font-size: 40px;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	padding: 70px 30px 50px 30px;
+}
+
+.Career {
+	text-align: center;
+	display: block;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	padding-right: 30px;
+}
+
+.Career img {
+	width: 500px;
+	height: 300px;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+
+.Career img:hover {
+	transform: scale(1.08);
+}
+
+/* hobby */
+
+.hobby {
+	padding-top: 20px;
+}
+
+.picture-hobby {
+	display: flex;
+}
+
+.picture-hobby img {
+	width: 50%;
+}
+
+.hobibarbie {
+	font-size: 50px;
+	font-style: italic;
+	color: rgb(64, 0, 0);
+	text-align: center;
+	padding: 10px 50px;
+}
+
+/* Role Model */
+
+.role-model {
+	display: flex;
+	background-color: rgb(255, 146, 149);
+}
+
+.role-model img {
+	padding-bottom: 30px;
+}
+
+.rolemodeltext {
+	font-size: 40px;
+	font-style: italic;
+	color: rgb(64, 0, 0);
+	text-align: center;
+	padding-left: 50px;
+	padding-top: 110px;
+	padding-bottom: 30px;
+}
+
+/* motivasi */
+
+.motivasi {
+	font-size: 50px;
+	font-style: italic;
+	text-shadow: 5px 5px 9px rgb(158, 65, 61);
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(255, 202, 208);
+}
