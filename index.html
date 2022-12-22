@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Koding-bersama-Barbie">
+    <title>Barbie Media</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="judul"><h1>Barbie</h1></div>
+        <ul class="ul-navbar">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About Me.html">About Me</a></li>
+            <li><a href="My Future.html">My Future</a></li> 
+            <li><a href="My Movie.html">My Movie</a></li>
+        </ul>
+    </div>
+    <!-- Navigation Bar Selesai -->
+</head>
+<body>
+
+<div class="home">
+    <div class="icon">
+    <div class="content" id="one">
+        <a class="play" onclick="toggleVideo();"><img src="image/play.png" width="20px">Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="Barbie Mermaid Power.mp4" controls="true" autoplay="true"></video>
+        <img src="image/close.png" class="close" onclick="toggleVideo();">
+    </div>
+
+    <script>
+        function toggleVideo()
+        {
+        const trailer = document.querySelector('.trailer');
+        const video = document.querySelector('video');
+        trailer.classList.toggle('active')
+        video.currentTime = 0;
+        video.pause();
+        }
+
+    </script>
+
+    <div class="content" id="two">
+        <button class="button" type="button"><a target="_blank" href="https://www.youtube.com/@Barbie">Click here for more videos and update!</a></button>
+    </div>
+</div>
+</div>
+    
+</body>
+</html> 
